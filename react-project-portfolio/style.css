@@ -1,0 +1,88 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #EBB654;
+    color: white;
+    padding: 1px 0;
+}
+
+.search {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 10% 0;
+    background-image: url("public/tiard-schulz-V5Bqsot6UCg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+.search .filters {
+    display: inline-flex;
+    border-bottom: 1px white solid;
+    color: white;
+    list-style: none;
+}
+.search-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px 0;
+}
+.search-filters input {
+    width: 500px;
+    height: 40px;
+    border: white;
+    border-radius: 5px;
+}
+.search-form .submit {
+    background-color: #EBB654;
+    color: white;
+    border-radius: 5px;
+    border: #EBB654;
+    width: 150px;
+    height: 40px;
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 150px;
+    gap: 50px;
+}
+.business {
+    display: flex;
+}
+.business-container img {
+    height: 400px;
+    width: 400px;
+}
+.business .left{
+    justify-items: start;
+    text-align: start;
+}
+.business .right {
+    justify-items: end;
+    align-content: end;
+    text-align: end;
+}
+.business .yellow {
+    color: #977F4D;
+}
+.uppercase {
+    text-transform: uppercase;
+}
